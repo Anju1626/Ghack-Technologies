@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lore Olympus Landing Page</title>
+    <link rel="stylesheet" href="styles1.css"> <!-- Main styles -->
+    <link rel="stylesheet" href="carousel-css.css"> <!-- Carousel styles -->
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Lore Olympus</h1>
+        <ul>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#carousel">Manhwa</a></li>
+            <li><a href="#cta">Read More</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-text">
+            <h2>Jaw Dropping Scenes</h2>
+            <p>Discover the enchanting world of Lore Olympus.</p>
+        </div>
+    </header>
+    <section id="characters" class="characters">
+        <h2>Main Characters</h2>
+        <div class="character-list">
+            <!-- Character cards will be dynamically generated here -->
+        </div>
+    </section>
+    <section id="carousel" class="carousel">
+        <h2>Supernatural Manhwas</h2>
+        <div class="carousel-container">
+            <!-- Carousel items will be dynamically generated here -->
+        </div>
+        <button class="carousel-button prev" onclick="moveCarousel(-1)" aria-label="Previous Manhwa">&#10094;</button>
+        <button class="carousel-button next" onclick="moveCarousel(1)" aria-label="Next Manhwa">&#10095;</button>
+    </section>
+    <section id="cta" class="cta">
+        <a href="#" class="cta-button">Read More</a>
+    </section>
+    <script src="script1.js"></script> <!-- Main JavaScript file -->
+    <script src="carousel.js"></script> <!-- Carousel JavaScript file -->
+</body>
+</html>
