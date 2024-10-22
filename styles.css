@@ -39,7 +39,7 @@ body {
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('images/hero-background.jpg');
+    background-image: url('image/hero-background.jpg');
     height: 60vh;
     display: flex;
     justify-content: center;
